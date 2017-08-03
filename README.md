@@ -1,7 +1,5 @@
 # Laravel-Web2SMS
 
----------------
-
 Laravel 5.4 integration package for Web2SMS.ro 
 
 ```
