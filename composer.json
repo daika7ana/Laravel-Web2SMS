@@ -1,0 +1,20 @@
+{
+    "name": "daika7ana/web2sms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dan-Radu Pana",
+            "email": "danradu.pana@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Daika\\Web2sms": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
