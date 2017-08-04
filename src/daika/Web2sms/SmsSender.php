@@ -110,9 +110,9 @@ class SmsSender
         $postResult = curl_exec($ch);
         
         if ($postResult === false) {
-            echo "<br/>";
-            echo ('Curl error: ' . curl_error($ch) . "<br/>");
-            echo ('Curl error nr: ' . curl_errno($ch) . "<br/>");
+            $response = 'Error code: ' . curl_errno($ch) . ' - ' .curl_error($ch);
+            curl_close($ch);
+            return $response;
         }
         
         curl_close($ch);
