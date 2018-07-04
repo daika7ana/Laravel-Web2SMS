@@ -12,8 +12,8 @@
         "illuminate/support": ">=5.4"
     },
     "autoload": {
-        "psr-0": {
-            "Daika\\Web2sms": "src/"
+        "psr-4": {
+            "Daika\\Web2sms\\": "src/"
         }
     },
     "minimum-stability": "stable"
