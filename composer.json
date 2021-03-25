@@ -1,6 +1,8 @@
 {
     "name": "daika7ana/laravel-web2sms",
-    "description": "",
+    "description": "NETOPIA Web2SMS Laravel integration with CURL",
+    "type": "laravel-package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dan-Radu Pana",
@@ -13,8 +15,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Daika\\Web2sms\\": "src/"
+            "Daika\\Web2sms\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daika\\Web2sms\\Web2smsServiceProvider"
+            ],
+            "aliases": {
+                "Web2sms": "Daika\\Web2sms\\Facades\\Web2smsFacade"
+            }
+        }
+    }
 }
