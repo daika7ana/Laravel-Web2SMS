@@ -1,6 +1,8 @@
 {
     "name": "daika7ana/laravel-web2sms",
-    "description": "",
+    "description": "NETOPIA Web2SMS Laravel integration with CURL",
+    "type": "laravel-package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dan-Radu Pana",
